@@ -49,7 +49,7 @@ public class Aserradero {
     public void resultadoiterativo(){
     	int longitud=ganancia.length-1;
     	for(int i=longitud;i>=1;){
-    		System.out.println("Se corto un pedazo de longitude: "+resultado[i]+"." );
+    		System.out.println("Se corto un pedazo de longitud: "+resultado[i]+"." );
     		i-=resultado[i];
     	}
     }
